@@ -7,7 +7,7 @@ const Header: React.FC = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
       <div className="flex justify-between items-center py-4">
         <Link to="/" className="flex items-center">
-          <img src="/Images/image_transparent.png" alt="SERVIMAX Logo" className="h-12 w-auto" />
+          <img src="/Images/image_transparent.png" alt="SERVIMAX Logo" className="h-12 w-30" />
         </Link>
         <nav className="hidden md:flex space-x-6 ">
           <Link to="/" className="text-gray-700 dark:text-gray-200 hover:text-blue-400">Inicio</Link>
