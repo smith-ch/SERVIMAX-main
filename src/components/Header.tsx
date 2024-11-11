@@ -13,7 +13,7 @@ const Header: React.FC = () => (
           <Link to="/" className="text-gray-700 dark:text-gray-200 hover:text-blue-400">Inicio</Link>
           <Link to="/services" className="text-gray-700 dark:text-gray-200 hover:text-blue-400">Servicios</Link>
           <Link to="/contact" className="text-gray-700 dark:text-gray-200 hover:text-blue-400">Contacto</Link>
-          <Link to="/register" className="text-gray-700 dark:text-gray-200 hover:text-blue-400">Registro</Link>
+
         </nav>
         <button className="md:hidden">
           <Menu className="h-6 w-6 text-gray-700 dark:text-gray-200" />

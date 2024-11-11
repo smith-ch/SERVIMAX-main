@@ -1,43 +1,59 @@
+/* Estilos de transición de página */
 .fade-enter {
-    opacity: 0;
-    transform: translateY(20px); /* Añadir desplazamiento vertical durante la entrada */
-  }
-  
-  .fade-enter-active {
-    opacity: 1;
-    transform: translateY(0); /* Regresar a la posición original */
-    transition: opacity 300ms ease-in, transform 300ms ease-in; /* Transiciones suaves para opacidad y desplazamiento */
-  }
-  
-  .fade-exit {
-    opacity: 1;
-    transform: translateY(0); /* Mantener en la posición original durante la salida */
-  }
-  
-  .fade-exit-active {
-    opacity: 0;
-    transform: translateY(20px); /* Desplazamiento vertical durante la salida */
-    transition: opacity 300ms ease-in, transform 300ms ease-in; /* Transiciones suaves para opacidad y desplazamiento */
-  }
+  opacity: 0;
+  transform: translateY(20px); /* Añadir desplazamiento vertical durante la entrada */
+}
 
-  /* Personaliza el recuadro azul */
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0); /* Regresar a la posición original */
+  transition: opacity 300ms ease-in, transform 300ms ease-in; /* Transiciones suaves para opacidad y desplazamiento */
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0); /* Mantener en la posición original durante la salida */
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px); /* Desplazamiento vertical durante la salida */
+  transition: opacity 300ms ease-in, transform 300ms ease-in; /* Transiciones suaves para opacidad y desplazamiento */
+}
+
+/* Personalización de color y estilo del fondo */
 .bg-blue-600 {
-    background-color: #1e90ff; /* Cambia esto al color que desees */
-  }
-  
-  .text-white {
-    color: #ffffff; /* Asegúrate de que el texto sea legible */
-  }
-  
-  button {
-    transition: background-color 0.3s; /* Efecto de transición suave */
-  }
-  
-  /* Estilo para el botón al pasar el mouse */
-  button:hover {
-    background-color: #ff4500; /* Cambia esto al color que desees */
-  }
-  /* Estilo para el punto que se mueve en el interruptor */
+  background-color: #1e90ff; /* Cambia esto al color que desees */
+}
+
+.text-white {
+  color: #ffffff; /* Asegúrate de que el texto sea legible */
+}
+
+/* Estilos para botones */
+button {
+  transition: background-color 0.3s;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+button:focus {
+  outline: 2px solid #ff4500;
+}
+
+button:active {
+  background-color: #e63900;
+}
+
+/* Estilo para el punto que se mueve en el interruptor */
 .dot {
   transition: transform 0.3s ease;
 }

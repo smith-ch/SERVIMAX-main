@@ -36,26 +36,6 @@ const Hero: React.FC = () => {
       <>
         {/* Sección principal del hero */}
         <div className="relative bg-blue-900 dark:bg-gray-900 overflow-hidden">
-          <div className="absolute top-4 right-4 z-20">
-            <label className="flex items-center cursor-pointer">
-              <span className="mr-3 text-white dark:text-gray-200">Modo Oscuro</span>
-              <div className="relative">
-                <input
-                    type="checkbox"
-                    checked={darkMode}
-                    onChange={() => setDarkMode(!darkMode)}
-                    className="sr-only"
-                />
-                <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
-                <div
-                    className={`dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition ${
-                        darkMode ? 'transform translate-x-6' : ''
-                    }`}
-                ></div>
-              </div>
-            </label>
-          </div>
-
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:z-0">
             <img
                 className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
