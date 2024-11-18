@@ -53,7 +53,7 @@ button:active {
   background-color: #e63900;
 }
 
-/* Estilo para el punto que se mueve en el interruptor */
+
 .dot {
   transition: transform 0.3s ease;
 }

@@ -6,7 +6,7 @@ import ServicesPage from './pages/Servicespages.tsx';
 import ContactPage from './pages/ContactPage';
 import RegisterPage from './pages/RegisterPage';
 import TestPage from './pages/TestPage';
-import ServiceDetail from './pages/ServiceDetail'; // Importar el archivo de detalles de servicio
+import ServiceDetail from './pages/ServiceDetail';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './App.css';
 
@@ -30,7 +30,7 @@ function App() {
                                 <Route path="/contact" element={<ContactPage />} />
                                 <Route path="/register" element={<RegisterPage />} />
                                 <Route path="/test" element={<TestPage />} />
-                                <Route path="/service/:serviceId" element={<ServiceDetail />} /> {/* Ruta de detalle de servicio */}
+                                <Route path="/service/:serviceId" element={<ServiceDetail />} />
                             </Routes>
                         </div>
                     </CSSTransition>
