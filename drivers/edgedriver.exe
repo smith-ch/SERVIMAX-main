@@ -1,0 +1,1 @@
+driver = webdriver.Edge(executable_path="C:/path/to/edgedriver.exe")
