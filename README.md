@@ -12,8 +12,6 @@ A diferencia de un sistema de tickets tradicional, SERVIMAX **no gestiona la cre
 - ✅ Sección de contacto para consultas personalizadas.
 - ✅ Código modular y limpio para fácil mantenimiento.
 
----
-
 ## 🛠️ Tecnologías Utilizadas
 
 ### Frontend
@@ -31,8 +29,6 @@ A diferencia de un sistema de tickets tradicional, SERVIMAX **no gestiona la cre
 - **Despliegue:** Docker, AWS EC2  
 - **CI/CD:** GitHub Actions  
 
----
-
 ## 🧩 Arquitectura del Sistema
 
 El sistema está estructurado bajo el patrón **MVC (Modelo – Vista – Controlador)** para una separación de responsabilidades clara y escalabilidad.
@@ -41,16 +37,12 @@ El sistema está estructurado bajo el patrón **MVC (Modelo – Vista – Contro
 Cliente (Frontend) → API REST (Backend) → Base de Datos
 ```
 
----
-
 ## 👥 Roles de Usuario
 
 | Rol           | Descripción                                                                 |
 |----------------|------------------------------------------------------------------------------|
 | Usuario        | Visualiza información sobre servicios y se contacta vía formulario.         |
 | Administrador  | Gestiona el contenido del sitio y responde a consultas.                     |
-
----
 
 ## 🧪 Historias de Usuario
 
@@ -66,8 +58,6 @@ Cliente (Frontend) → API REST (Backend) → Base de Datos
 ### 📌 Administrador – Responder consultas
 > Como administrador, quiero recibir las consultas de los usuarios para poder darles seguimiento.
 
----
-
 ## 🖥️ Capturas de Pantalla
 
 > *(Aquí puedes agregar imágenes del sitio, la interfaz principal, formulario de contacto, etc. Puedes usar Markdown como esto:)*
@@ -76,8 +66,6 @@ Cliente (Frontend) → API REST (Backend) → Base de Datos
 ![Inicio de SERVIMAX](./screenshots/home.png)
 ![Formulario de Contacto](./screenshots/contact.png)
 ```
-
----
 
 ## ⚙️ Instalación Local
 
@@ -99,8 +87,6 @@ npm install
 npm run dev
 ```
 
----
-
 ## 🔭 Roadmap (Futuras Funcionalidades)
 
 - [ ] Chat en tiempo real con el equipo de soporte.
@@ -108,8 +94,6 @@ npm run dev
 - [ ] Agendamiento de citas para servicios técnicos.
 - [ ] Panel administrativo visual para gestión de contenido.
 - [ ] Integración con WhatsApp Business API.
-
----
 
 ## 🤝 Contribuciones
 
@@ -120,20 +104,15 @@ npm run dev
 3. Realiza tus cambios y haz commit.
 4. Abre un Pull Request describiendo tus cambios.
 
----
-
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la **MIT License**. Consulta el archivo [`LICENSE`](./LICENSE) para más información.
 
----
 
 ## 📬 Contacto
 
 - Repositorio: [https://github.com/smith-ch/SERVIMAX-main](https://github.com/smith-ch/SERVIMAX-main)  
 - Reporte de errores: [Sección Issues del repositorio](https://github.com/smith-ch/SERVIMAX-main/issues)
-
----
 
 > ✨ Este proyecto fue desarrollado como parte de una asignación académica para demostrar el uso de Git, Git Flow y buenas prácticas de documentación.
 
