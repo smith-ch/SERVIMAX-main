@@ -1,96 +1,141 @@
-# **SERVIMAX - Sistema de Gestión de Servicios**  
+# 🚀 SERVIMAX – Sistema Informativo de Servicios Técnicos
 
-## **Descripción**  
-SERVIMAX es una plataforma diseñada para gestionar y visualizar información sobre distintos servicios sin la necesidad de manipulación de datos. Su propósito es presentar contenido estático o dinámico sin la opción de crear, editar o eliminar registros.  
+## 📌 Descripción General
 
-## **Características**  
-✅ **Visualización de Información**: Interfaz clara y organizada para mostrar datos relevantes.  
-✅ **Diseño Responsivo**: Adaptable a diferentes dispositivos y tamaños de pantalla.  
-✅ **Optimización de Carga**: Código optimizado para un mejor rendimiento.  
-✅ **Implementación de Git Flow**: Estructura de ramas organizada para el control del código.  
+**SERVIMAX** es una plataforma informativa que presenta los servicios técnicos disponibles de forma clara y profesional. Su objetivo es facilitar el acceso a la información sobre mantenimiento, soporte y servicios generales, además de ofrecer un medio de contacto directo para resolver dudas o solicitar asistencia.
 
+A diferencia de un sistema de tickets tradicional, SERVIMAX **no gestiona la creación ni edición de solicitudes**, sino que se enfoca en brindar información útil y permitir al usuario conectarse con el equipo de atención al cliente.
 
-## **Tecnologías Utilizadas**  
-- **Frontend**: HTML, CSS, JavaScript (o frameworks como React/Vue/Angular, si aplica).  
-- **Backend (si aplica)**: Node.js, Python o cualquier otro lenguaje utilizado para el procesamiento de datos.  
-- **Control de Versiones**: Git & GitHub.  
-- **Metodología**: Git Flow.  
+### ✨ Características destacadas:
+- ✅ Información detallada sobre servicios técnicos disponibles.
+- ✅ Diseño responsivo y moderno.
+- ✅ Sección de contacto para consultas personalizadas.
+- ✅ Código modular y limpio para fácil mantenimiento.
 
+---
 
-## **Instalación y Configuración**  
+## 🛠️ Tecnologías Utilizadas
 
-### **Requisitos Previos**  
-🔹 Tener **Git** instalado en el sistema.  
-🔹 Tener **Node.js** y **npm** instalados (solo si el proyecto usa JavaScript).  
+### Frontend
+- **Framework:** React.js + TypeScript  
+- **UI:** Material-UI  
+- **Estado:** Redux  
+- **Empaquetador:** Vite  
 
-### **Pasos de Instalación**  
-1. Clonar el repositorio:  
-   ```bash
-   git clone https://github.com/smith-ch/SERVIMAX-main.git
-   cd SERVIMAX-main
-   ```
-2. Si es un proyecto basado en Node.js, instalar dependencias:  
-   ```bash
-   npm install
-   ```
-3. Iniciar el servidor (si aplica):  
-   ```bash
-   npm start
-   ```
-4. Alternativamente, abrir el archivo `index.html` en el navegador *(si es un proyecto estático)*.  
+### Backend
+- **Servidor:** Node.js con Express.js  
+- **Base de Datos:** PostgreSQL (estructurada para futuras funciones)  
+- **Autenticación (opcional para admin):** JWT  
 
+### Infraestructura
+- **Despliegue:** Docker, AWS EC2  
+- **CI/CD:** GitHub Actions  
 
-## **Estructura del Proyecto**  
+---
+
+## 🧩 Arquitectura del Sistema
+
+El sistema está estructurado bajo el patrón **MVC (Modelo – Vista – Controlador)** para una separación de responsabilidades clara y escalabilidad.
+
 ```
-📂 SERVIMAX-main
- ├── 📂 src/        # Código fuente del frontend
- ├── 📂 assets/     # Imágenes y archivos estáticos
- ├── 📂 docs/       # Documentación
- ├── .gitignore
- ├── README.md
- ├── package.json   # Dependencias (si usa Node.js)
- ├── index.html     # Página principal
- └── LICENSE
+Cliente (Frontend) → API REST (Backend) → Base de Datos
 ```
 
+---
 
-## **Uso de Git Flow en el Proyecto**  
+## 👥 Roles de Usuario
 
-Este proyecto sigue la metodología **Git Flow** para organizar el desarrollo.  
+| Rol           | Descripción                                                                 |
+|----------------|------------------------------------------------------------------------------|
+| Usuario        | Visualiza información sobre servicios y se contacta vía formulario.         |
+| Administrador  | Gestiona el contenido del sitio y responde a consultas.                     |
 
-1️⃣ **Ramas Principales**:  
-   - `main` → Versión estable del proyecto.  
-   - `developer` → Rama de desarrollo donde se integran nuevas funcionalidades.  
-   - `qa` → Rama para pruebas antes de integrar a `main`.  
+---
 
-2️⃣ **Ramas de Características (feature)**:  
-   - Cada nueva funcionalidad se desarrolla en una rama `feature/{nombre}`.  
-   - Ejemplo: `feature/responsive-design`.  
+## 🧪 Historias de Usuario
 
-3️⃣ **Proceso de Desarrollo**:  
-   ```bash
-   git checkout developer
-   git checkout -b feature/nueva-funcionalidad
-   # Agregar cambios
-   git commit -m "Nueva funcionalidad agregada"
-   git push origin feature/nueva-funcionalidad
-   ```
-   Luego, se debe hacer un **Pull Request** para fusionar la rama `feature` en `developer`.  
+### 📌 Usuario – Consulta de servicios
+> Como visitante, quiero ver todos los servicios disponibles para saber cómo SERVIMAX me puede ayudar.
 
+### 📌 Usuario – Formulario de contacto
+> Como visitante, quiero poder enviar una consulta para que el equipo me brinde más información personalizada.
 
-## **Contribuciones**  
-Las contribuciones son bienvenidas. Para contribuir:  
-1. **Haz un fork** del repositorio.  
-2. **Crea una rama** con tu mejora (`git checkout -b mejora/ajuste-interfaz`).  
-3. **Haz commit** de tus cambios (`git commit -m "Ajuste en interfaz"`).  
-4. **Haz push** a tu rama (`git push origin mejora/ajuste-interfaz`).  
-5. Abre un **Pull Request**.  
+### 📌 Usuario – Experiencia responsiva
+> Como visitante, quiero navegar cómodamente desde mi celular o tablet sin problemas de diseño.
 
+### 📌 Administrador – Responder consultas
+> Como administrador, quiero recibir las consultas de los usuarios para poder darles seguimiento.
 
-## **Contacto**  
-📧 **Correo:** smithrodriguez345@gmail.com  
-🌐 **GitHub:** [smith-ch](https://github.com/smith-ch)  
+---
 
+## 🖥️ Capturas de Pantalla
 
-## **Documentacion**
-DENTRO DEL PDF EN EL PROYECTO
+> *(Aquí puedes agregar imágenes del sitio, la interfaz principal, formulario de contacto, etc. Puedes usar Markdown como esto:)*
+
+```markdown
+![Inicio de SERVIMAX](./screenshots/home.png)
+![Formulario de Contacto](./screenshots/contact.png)
+```
+
+---
+
+## ⚙️ Instalación Local
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/smith-ch/SERVIMAX-main.git
+cd SERVIMAX-main
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Configura las variables de entorno en un archivo `.env`.
+
+4. Inicia la aplicación:
+```bash
+npm run dev
+```
+
+---
+
+## 🔭 Roadmap (Futuras Funcionalidades)
+
+- [ ] Chat en tiempo real con el equipo de soporte.
+- [ ] Aplicación móvil con React Native.
+- [ ] Agendamiento de citas para servicios técnicos.
+- [ ] Panel administrativo visual para gestión de contenido.
+- [ ] Integración con WhatsApp Business API.
+
+---
+
+## 🤝 Contribuciones
+
+¿Quieres contribuir? ¡Eres bienvenido/a!
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama: `feature/tu-funcionalidad`.
+3. Realiza tus cambios y haz commit.
+4. Abre un Pull Request describiendo tus cambios.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la **MIT License**. Consulta el archivo [`LICENSE`](./LICENSE) para más información.
+
+---
+
+## 📬 Contacto
+
+- Repositorio: [https://github.com/smith-ch/SERVIMAX-main](https://github.com/smith-ch/SERVIMAX-main)  
+- Reporte de errores: [Sección Issues del repositorio](https://github.com/smith-ch/SERVIMAX-main/issues)
+
+---
+
+> ✨ Este proyecto fue desarrollado como parte de una asignación académica para demostrar el uso de Git, Git Flow y buenas prácticas de documentación.
+
+---
+
