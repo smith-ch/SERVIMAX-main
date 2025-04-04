@@ -92,3 +92,5 @@ Las contribuciones son bienvenidas. Para contribuir:
 🌐 **GitHub:** [smith-ch](https://github.com/smith-ch)  
 
 
+## **Documentacion**
+DENTRO DEL PDF EN EL PROYECTO
