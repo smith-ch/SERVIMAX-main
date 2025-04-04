@@ -1,10 +1,4 @@
-¡Entiendo! Si tu sistema no tiene funcionalidad CRUD porque no hay creación, edición o eliminación de datos, entonces podemos ajustar el **README.md** para reflejar mejor la naturaleza de tu proyecto. Aquí tienes una versión optimizada:  
-
----
-
 # **SERVIMAX - Sistema de Gestión de Servicios**  
-
-![SERVIMAX Logo](https://via.placeholder.com/600x200?text=SERVIMAX+LOGO)  
 
 ## **Descripción**  
 SERVIMAX es una plataforma diseñada para gestionar y visualizar información sobre distintos servicios sin la necesidad de manipulación de datos. Su propósito es presentar contenido estático o dinámico sin la opción de crear, editar o eliminar registros.  
@@ -15,7 +9,6 @@ SERVIMAX es una plataforma diseñada para gestionar y visualizar información so
 ✅ **Optimización de Carga**: Código optimizado para un mejor rendimiento.  
 ✅ **Implementación de Git Flow**: Estructura de ramas organizada para el control del código.  
 
----
 
 ## **Tecnologías Utilizadas**  
 - **Frontend**: HTML, CSS, JavaScript (o frameworks como React/Vue/Angular, si aplica).  
@@ -23,7 +16,6 @@ SERVIMAX es una plataforma diseñada para gestionar y visualizar información so
 - **Control de Versiones**: Git & GitHub.  
 - **Metodología**: Git Flow.  
 
----
 
 ## **Instalación y Configuración**  
 
@@ -47,7 +39,6 @@ SERVIMAX es una plataforma diseñada para gestionar y visualizar información so
    ```
 4. Alternativamente, abrir el archivo `index.html` en el navegador *(si es un proyecto estático)*.  
 
----
 
 ## **Estructura del Proyecto**  
 ```
@@ -62,7 +53,6 @@ SERVIMAX es una plataforma diseñada para gestionar y visualizar información so
  └── LICENSE
 ```
 
----
 
 ## **Uso de Git Flow en el Proyecto**  
 
@@ -87,7 +77,6 @@ Este proyecto sigue la metodología **Git Flow** para organizar el desarrollo.
    ```
    Luego, se debe hacer un **Pull Request** para fusionar la rama `feature` en `developer`.  
 
----
 
 ## **Contribuciones**  
 Las contribuciones son bienvenidas. Para contribuir:  
@@ -97,17 +86,13 @@ Las contribuciones son bienvenidas. Para contribuir:
 4. **Haz push** a tu rama (`git push origin mejora/ajuste-interfaz`).  
 5. Abre un **Pull Request**.  
 
----
 
 ## **Licencia**  
 📜 Este proyecto está bajo la licencia **MIT**.  
 
----
 
 ## **Contacto**  
-📧 **Correo:** example@email.com  
+📧 **Correo:** smithrodriguez345@gmail.com  
 🌐 **GitHub:** [smith-ch](https://github.com/smith-ch)  
 
----
 
-Este **README.md** es más adecuado para un sistema sin CRUD y enfatiza la visualización de datos y la organización del proyecto. 🚀
