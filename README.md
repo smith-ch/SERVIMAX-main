@@ -87,10 +87,6 @@ Las contribuciones son bienvenidas. Para contribuir:
 5. Abre un **Pull Request**.  
 
 
-## **Licencia**  
-📜 Este proyecto está bajo la licencia **MIT**.  
-
-
 ## **Contacto**  
 📧 **Correo:** smithrodriguez345@gmail.com  
 🌐 **GitHub:** [smith-ch](https://github.com/smith-ch)  
