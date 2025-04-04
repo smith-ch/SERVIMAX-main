@@ -1,6 +1,5 @@
 
 
-```markdown
 # 📘 SERVIMAX – Sistema Informativo de Servicios Técnicos
 
 ## 🧾 Tabla de Contenido
@@ -18,7 +17,7 @@
 12. [Licencia](#licencia)
 13. [Contacto y Soporte](#contacto-y-soporte)
 
----
+
 
 ## 📌 Descripción General
 
@@ -26,7 +25,7 @@
 
 El propósito de este proyecto es demostrar el uso correcto de herramientas como **Git**, **Git Flow** y **buenas prácticas de documentación**, cumpliendo con los estándares de una tarea académica evaluativa.
 
----
+
 
 ## ✨ Características Principales
 
@@ -37,7 +36,6 @@ El propósito de este proyecto es demostrar el uso correcto de herramientas como
 - Configuración lista para producción con Docker.
 - Documentación clara en este `README.md`.
 
----
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -58,7 +56,7 @@ El propósito de este proyecto es demostrar el uso correcto de herramientas como
 - **GitHub Actions** para CI/CD
 - **AWS EC2** (para despliegue)
 
----
+
 
 ## 🧩 Arquitectura del Sistema
 
@@ -73,16 +71,14 @@ Cliente (React) → API REST (Express) → PostgreSQL
 - `server/` → Lógica del backend y conexión a la base de datos
 - `shared/` → Utilidades comunes
 
----
 
 ## 👤 Roles de Usuario
 
 | Rol         | Descripción                                                                 |
-|--------------|------------------------------------------------------------------------------|
-| Visitante    | Visualiza servicios, accede a contacto y recibe información.                |
+|-------------|------------------------------------------------------------------------------|
+| Visitante   | Visualiza servicios, accede a contacto y recibe información.                |
 | Administrador| Gestiona contenidos y responde consultas. *(Funcionalidad prevista)*         |
 
----
 
 ## 🧪 Historias de Usuario
 
@@ -98,7 +94,7 @@ Cliente (React) → API REST (Express) → PostgreSQL
 ### 4. Escalabilidad Administrativa *(Futura)*
 > Como administrador, quiero gestionar la información mostrada desde un panel privado.
 
----
+
 
 ## ⚙️ Instalación y Configuración
 
@@ -138,7 +134,7 @@ DB_PASS=****
 npm run dev
 ```
 
----
+
 
 ## 🗂️ Estructura de Carpetas
 
@@ -164,6 +160,7 @@ SERVIMAX-main/
 - [ ] Aplicación móvil (React Native)
 
 
+
 ## 🖼️ Capturas de Pantalla
 
 > *(Agrega imágenes si las tienes, por ejemplo:)*
@@ -172,6 +169,7 @@ SERVIMAX-main/
 ![Vista de servicios](./screenshots/servicios.png)
 ![Formulario de contacto](./screenshots/contacto.png)
 ```
+
 
 
 ## 🤝 Contribuciones
@@ -184,10 +182,12 @@ SERVIMAX-main/
 4. Abre un Pull Request con una breve descripción.
 
 
+
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la [MIT License](./LICENSE).  
 Puedes usarlo, modificarlo y distribuirlo libremente con atribución.
+
 
 
 ## 📬 Contacto y Soporte
@@ -195,9 +195,6 @@ Puedes usarlo, modificarlo y distribuirlo libremente con atribución.
 - Repositorio: [https://github.com/smith-ch/SERVIMAX-main](https://github.com/smith-ch/SERVIMAX-main)
 - Reportar errores: [GitHub Issues](https://github.com/smith-ch/SERVIMAX-main/issues)
 
----
+
 
 > 💼 Este proyecto fue desarrollado como parte de una evaluación académica para demostrar el uso de Git, Git Flow, buenas prácticas de desarrollo, y documentación efectiva.
-
-```
-
